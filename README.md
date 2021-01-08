@@ -8,10 +8,10 @@ Para o projeto piloto de implantação do sistema, você deve criar um programa 
 A média semestral é a média aritmética simples das médias bimestrais. 
 
 As médias bimestrais são compostas pelas seguintes atividades: 
----> prova (peso 3), 
----> projeto (peso 3), 
----> lista de exercícios (2)  
----> contribuição em projetos de software livre/ conclusão de MOOCs recomendados pelo docente (3).
+* ---> prova (peso 3), 
+* ---> projeto (peso 3), 
+* ---> lista de exercícios (2)  
+* ---> contribuição em projetos de software livre/ conclusão de MOOCs recomendados pelo docente (3).
 
 Os dados devem ser obtidos a partir de input pelo teclado e o programa deve exibir se o aluno foi aprovado ou reprovado. Considere que o aluno deve ser aprovado se obtiver nota igual ou maior que 8.
 

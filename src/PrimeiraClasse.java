@@ -5,7 +5,7 @@ public class PrimeiraClasse {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
-		
+		/*
 		System.out.println("Digite o nome do aluno: ");
 		String nomeAluno = sc.nextLine();
 		
@@ -50,7 +50,6 @@ public class PrimeiraClasse {
 		System.out.println("Média segundo bimestre: " + media2f +"\n");
 		
 		
-		
 		//Terceiro bimestre
 		System.out.print("Entre com as notas do terceiro bimestre \nDigite a nota da prova do terceiro bimestre: ");
 		notaProva3 = sc.nextDouble();
@@ -78,6 +77,12 @@ public class PrimeiraClasse {
 		if (mediaSemestre >= 8)
 			System.out.print("O aluno: "+ nomeAluno + " foi APROVADO com a média semestral de: " + mediaSemestref + ".");
 		else System.out.print("O aluno: "+ nomeAluno + " foi REPROVADO com a média semestral de: " + mediaSemestref + ".\nRealize a PROVA FINAL e obtenha nota mínima de: " + notaMinimaf + " para conseguir aprovação!");
+		*/
+		for(int i = 1; ; i++) {
+			if(i%5 == 0)
+				break;
+			System.out.println(i);
+		}
 	}
 
 }
