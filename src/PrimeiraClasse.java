@@ -5,13 +5,13 @@ public class PrimeiraClasse {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
-		/*
+		
 		System.out.println("Digite o nome do aluno: ");
 		String nomeAluno = sc.nextLine();
 		
-		double notaProva1, notaProjeto1, notaExercicios1, notaProjetos1, mediaSemestre, notaMinima, media1;
-		double notaProva2, notaProjeto2, notaExercicios2, notaProjetos2, media2;
-		double notaProva3, notaProjeto3, notaExercicios3, notaProjetos3, media3;
+		double notaProva1, notaProjeto1, notaExercicios1, notaMooc1, mediaSemestre, notaMinima, media1;
+		double notaProva2, notaProjeto2, notaExercicios2, notaMooc2, media2;
+		double notaProva3, notaProjeto3, notaExercicios3, notaMooc3, media3;
 		DecimalFormat x = new DecimalFormat("0.00");
 	
 		// Primeiro bimestre
@@ -25,9 +25,9 @@ public class PrimeiraClasse {
 		notaExercicios1 = sc.nextDouble();
 		
 		System.out.print("Digite a nota de contribuição em projetos de software livre/conclusão de MOOCs recomendados pelo docente do primeiro bimestre: ");
-		notaProjetos1 = sc.nextDouble();
+		notaMooc1 = sc.nextDouble();
 		
-		media1 = ((notaProva1*3) + (notaProjeto1*3) + (notaExercicios1*2) + (notaProjetos1*3)) / (3+3+2+3); 
+		media1 = ((notaProva1*3) + (notaProjeto1*3) + (notaExercicios1*2) + (notaMooc1*3)) / (3+3+2+3); 
 		String media1f = x.format(media1);
 		System.out.println("Aluno: " + nomeAluno + "\nMédia primeiro bimestre: " + media1f +"\n");
 		
@@ -43,9 +43,9 @@ public class PrimeiraClasse {
 		notaExercicios2 = sc.nextDouble();
 		
 		System.out.print("Digite a nota de contribuição em projetos de software livre/conclusão de MOOCs recomendados pelo docente do segundo bimestre: ");
-		notaProjetos2 = sc.nextDouble();
+		notaMooc2 = sc.nextDouble();
 		
-		media2 = ((notaProva2*3) + (notaProjeto2*3) + (notaExercicios2*2) + (notaProjetos2*3)) / (3+3+2+3);
+		media2 = ((notaProva2*3) + (notaProjeto2*3) + (notaExercicios2*2) + (notaMooc2*3)) / (3+3+2+3);
 		String media2f = x.format(media2);
 		System.out.println("Média segundo bimestre: " + media2f +"\n");
 		
@@ -61,9 +61,9 @@ public class PrimeiraClasse {
 		notaExercicios3 = sc.nextDouble();
 		
 		System.out.print("Digite a nota de contribuição em projetos de software livre/conclusão de MOOCs recomendados pelo docente do terceiro bimestre: ");
-		notaProjetos3 = sc.nextDouble();
+		notaMooc3 = sc.nextDouble();
 			
-		media3 = ((notaProva3*3) + (notaProjeto3*3) + (notaExercicios3*2) + (notaProjetos3*3)) / (3+3+2+3);
+		media3 = ((notaProva3*3) + (notaProjeto3*3) + (notaExercicios3*2) + (notaMooc3*3)) / (3+3+2+3);
 		String media3f = x.format(media1);
 		System.out.println("Média terceiro bimestre: " + media3f +"\n");
 
@@ -77,12 +77,7 @@ public class PrimeiraClasse {
 		if (mediaSemestre >= 8)
 			System.out.print("O aluno: "+ nomeAluno + " foi APROVADO com a média semestral de: " + mediaSemestref + ".");
 		else System.out.print("O aluno: "+ nomeAluno + " foi REPROVADO com a média semestral de: " + mediaSemestref + ".\nRealize a PROVA FINAL e obtenha nota mínima de: " + notaMinimaf + " para conseguir aprovação!");
-		*/
-		for(int i = 1; ; i++) {
-			if(i%5 == 0)
-				break;
-			System.out.println(i);
-		}
+		
 	}
 
 }
